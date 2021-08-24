@@ -9,7 +9,7 @@ class CalculatorTest {
 	@Test
 	void testadd() {
 		System.out.println("In add test case");
-		assertEquals(5,Calculator.add(2, 3));
+		assertEquals(4,Calculator.add(2, 3));
 	}
 	@Test
 	void testsub() {
